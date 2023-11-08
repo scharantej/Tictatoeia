@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic Tac Toe</title>
+</head>
+<body>
+<h1>Tic Tac Toe</h1>
+<p>Your move: {{ move }}</p>
+<p>Computer's move: {{ computer_move }}</p>
+{% if winner %}
+<p>The winner is {{ winner }}!</p>
+{% else %}
+<p>The game is a tie.</p>
+{% endif %}
+</body>
+</html>
+
+
